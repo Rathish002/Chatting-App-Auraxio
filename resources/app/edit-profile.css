@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .html,body{
+      height: 100vh;
+      width:100%;
+      background-color:rgb(209, 65, 135);
+  }
+  
+  .container{
+    margin:50px auto 100px;
+      max-width:400px;
+     padding-top:10px;
+     padding-bottom:5px;
+     border-radius:10px;
+    background-color:black;
+    box-shadow: 10px 10px 10px;
+  }
+  .heading{
+    text-align :center;
+     margin-top: 0.7rem;
+     margin-bottom:1.5rem;
+     color:azure;
+     font-variant:small-caps
+  }  
+  #field{
+    height:50px;
+    width:100%;
+    margin-top:20px;
+  }
+  .from-control{
+    border:none;
+    width:100%;
+    border-bottom:1px solid white;
+    margin:5px 0px;
+    background-color:transparent 
+  }
+  .header-btn{
+    margin-top:5px;
+    width:45px;
+    height:40px;
+    background-color:rgb(255, 97, 150);
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.header-btn:hover{
+    background-color:#b221c8 ;
+}
+
+.back-btn{
+    width:100px
+}
+.header{
+   display:flex;
+}
+::placeholder{
+    color:azure;
+    opacity:30
+  }
+.buttons{
+ padding:10px;
+ background-color:black;
+ margin-top:15px;
+ width:100%;
+ margin-bottom:10px;
+ border-radius:10px;
+ 
+}
+.first-row-btn{
+    padding-left:80px;
+    padding-top:5px;
+    height:50px;
+    
+}
+.second-row-btn{
+    padding-left:120px;
+    padding-top:10px;
+    height:40px;
+   
+    border-top: 1px solid white;
+}
+.btn2{
+    border:none;
+    background-color: black;
+    color:red;
+    font-size:small;
+}
+.btn1{
+    border-radius:20px;
+    font-size:small;
+    padding:5px;
+    background-image:linear-gradient( 90deg,#cb3fe1 ,rgb(110, 83, 242)) ;
+}
+
+.form-control{
+  color: white;
+}

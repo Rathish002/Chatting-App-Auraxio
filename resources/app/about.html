@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family:sans-serif;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            height: 60vh;
+            align-items: center;
+            background-color: #F8F7F4;
+        }
+        body{
+            background-color: #F8F7F4;
+        }
+        .card{
+            height: 350px;
+            margin: 40px;
+            box-shadow: 5px 5px 25px black;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        img{
+            height:375px;
+            width: 250px;
+            transition: .5s;
+        }
+        .container{
+            display: flex;
+
+        }
+        .intro{
+            height: 70px;
+            width: 250px;
+            padding: 6px;
+            box-sizing: border-box;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.773);
+            color: white;
+            bottom: 195px;
+            transition: .5s;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        h1{
+            margin: 10px;
+            font-size: 40px;
+            text-align: center;
+        }
+        .rollno{
+            font-size: 20px;
+            margin: 20px;
+            visibility: hidden;
+            opacity: 0;
+            text-align: left;
+        }
+        .card:hover{
+            cursor: pointer;
+        }
+        .card:hover .intro{
+            height:120px;
+            bottom: 195px;
+            background: #191815;
+        }
+        .card:hover p{
+            opacity: 1;
+            visibility: visible;
+        }
+        .card:hover img{
+            transform: scale(1.1) ;
+        }
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .topnav a,h2 {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .topnav a.active {
+            background-color: #28a3eaea;
+            color: white;
+        }
+        h2{
+            text-align: center;
+        }
+        #head{
+            font-size: 50px;
+            color: black;
+            text-shadow: rgba(28, 28, 28, 0.703);
+        }
+        #last{
+            font-family: monospace;
+            font-size: 20px;
+        }
+        p{
+            margin-left: 120px;
+            font-family: monospace;
+            font-size: 20px;
+        }
+        #hr1 {
+            border:none;
+            height: 10px;
+ 	        width: 82%;
+	        height: 50px;
+	        margin-top: 0;
+	        border-bottom: 1px solid #1f1209;
+	        box-shadow: 0 20px 20px -20px #333;
+            margin: -50px auto 10px; 
+        }
+        #hr2{
+            border:none;
+            height: 10px;
+ 	        width: 82%;
+	        height: 50px;
+	        margin-top: 0;
+	        border-bottom: 1px solid #1f1209;
+	        box-shadow: 0 20px 20px -20px #333;
+            margin: -50px auto 10px; 
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <h2>AURAXIO</h2>
+        <a class="active" href="home.html">Home</a>
+      </div>
+
+      <H1 id="head">ABOUT US</H1>
+      <hr id="hr1">
+    
+    <div class="container">
+        <div class="card">
+            <img src="kushal.jpg" alt="Kumar">
+            <div class="intro">
+                <h1>KUSHAAL</h1>
+                <p class="rollno">CB.SC.U4CSE23735</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="rathish.jpg" alt="rathish">
+            <div class="intro">
+                <h1>RATHISH</h1>
+                <p class="rollno">CB.SC.U4CSE23710</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="ykushal.jpg" alt="kushal">
+            <div class="intro">
+                <h1>KUSHAL</h1>
+                <p class="rollno">CB.SC.U4CSE23766</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="thilagan.jpg" alt="thilagan">
+            <div class="intro">
+                <h1>THILAGAN</h1>
+                <p class="rollno">CB.SC.U4CSE23750</p>
+            </div>
+        </div>
+    </div>
+    <hr id="hr2">
+
+    <p>We are first year Computer Science students from Amrita Vishwa Vidyapeetham</p>
+    <p>This is a Chatting app which is built using HTML ,CSS ,JAVASCRIPT ,FIREBASE ,Google verification , Electron and server end verification.</p>
+    <p>We submit this as our case study for the course 23CSE113</p>
+    <p>Click this link here to view the documentation. <a id="last" href="#">DOCUMENTATION</a></p>
+
+</body>
+</html>

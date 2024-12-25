@@ -1,0 +1,123 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        html,
+        body {
+            height: 100vh;
+            width: 100%;
+            background-color:rgb(209, 65, 135);
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 20px;
+            padding-top:60px;
+            max-width: 600px;
+            background-color: black;
+            border-radius: 15px;
+            box-shadow: 10px 10px 10px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: azure;
+        }
+
+        .form-control {
+            border: none;
+            border-radius: 0;
+            border-bottom: 1px solid white;
+            background-color: transparent;
+            color: white;
+        }
+
+        .form-control::placeholder {
+            color: azure;
+            opacity: 0.5;
+        }
+
+        .btn {
+            border-radius: 40px;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .btn-primary {
+            background-color:rgb(255, 97, 150);
+            color: azure;
+            font-weight: 600;
+            margin-left: 0px;
+           
+        }
+
+        .btn-primary:hover {
+            background-color: rgb(202, 0, 126);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            font-weight: 600;
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .list-group-item {
+            background-color: transparent;
+            border: none;
+            color: white;
+        }
+        .header{
+            display:flex
+        }
+        .backbtn{
+            margin-top:0px;
+            width:45px;
+            height:40px;
+            background-color:rgb(255, 97, 150);
+          border: none;
+          color: white;
+          border-radius: 10px;
+        }
+        .backbtn:hover{
+            background-color: rgb(202, 0, 126);
+        }
+        .heading{
+            padding-left:145px
+        }
+        .logo-container{
+  
+            height:105px;
+            margin:100px auto 0px;
+            max-width:400px;
+            padding-left: 50px;
+            padding-top:50px;
+            background-color:transparent;
+          }
+          .img{
+            height:100px;
+            width:100px;
+            margin-left:100px;
+            border-radius: 100px;
+            border:3px solid rgb(246, 17, 166);
+            background-color: #ff5f94;
+          }
+
+#searchBtn{
+    width: 80px;
+    margin-left: 10px;
+    border-radius:30px ;
+
+}
+h3,.form-label{
+    color: white;
+}
+
